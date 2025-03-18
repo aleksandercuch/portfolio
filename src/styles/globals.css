@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.topCorner {
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 0, 100px 0);
+  clip-path: polygon(0 0, 0 100%, 100% 0, 0 0);
+}
+
+.downCorner {
+  -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+  clip-path: polygon(100% 100%, 0 100%, 100% 0, 100% 100%);
+}
+
+.downCorner:hover,
+.topCorner:hover {
+  -webkit-transition: 2.5s;
+  -moz-transition: 2.5s;
+  -ms-transition: 2.5s;
+  -o-transition: 2.5s;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
