@@ -45,3 +45,19 @@ body {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+
+.contact-top-left-block {
+  clip-path: polygon(55px 0, 100% 0, calc(100% - 55px) 100%, 0 100%);
+}
+
+.contact-top-right-block {
+  clip-path: polygon(0 0, calc(100% - 55px) 0, 100% 100%, 55px 100%);
+}
+
+.contact-bottom-left-block {
+  clip-path: polygon(0 0, calc(100% - 55px) 0, 100% 100%, 55px 100%);
+}
+
+.contact-bottom-right-block {
+  clip-path: polygon(55px 0, 100% 0, calc(100% - 55px) 100%, 0 100%);
+}

@@ -6,7 +6,7 @@ export const Hobbys = () => {
       <div className="relative w-full h-screen overflow-hidden rounded-lg shadow-lg">
         {/* Left Side (HEMA Sports) */}
         <Image
-          src="/globe.svg" // Replace with your actual image path
+          src="/warriors.jpg"
           alt="HEMA Sports"
           fill
           className="object-cover topCorner"
@@ -15,7 +15,7 @@ export const Hobbys = () => {
 
         {/* Right Side (Writing & Books) */}
         <Image
-          src="/next.svg" // Replace with your actual image path
+          src="/books.jpg"
           alt="Writing and Books"
           fill
           className="object-cover downCorner"
